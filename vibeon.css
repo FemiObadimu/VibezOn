@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  /* font-family: Noto Sans; */
+  font-family: Noto Sans;
 }
 
 body {
@@ -37,7 +37,7 @@ label {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 200px 0px;
+  margin: 70px 0px;
 }
 
 form div {
