@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* font-family: Noto Sans; */
+}
+
+body {
+  background-color: rgb(10, 4, 4);
+  animation: slideleft 3s;
+  transition: all 0.3s ease-in 0.1s;
+}
+
+@keyframes slideleft {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+h2,
+.fa-fire {
+  text-align: center;
+  color: rgb(255, 72, 0);
+}
+h2 small {
+  color: white;
+}
+
+label {
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 200px 0px;
+}
+
+form div {
+  padding: 20px 0px;
+}
+
+.btn-block {
+  background: rgb(255, 72, 0);
+  color: white;
+  font-size: 20px;
+}
+
+.jokes {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+.jokes li {
+  padding: 10px 0px;
+  color: rgb(255, 72, 0);
+  font-size: 20px;
+}
